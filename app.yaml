@@ -1,0 +1,13 @@
+runtime: nodejs
+env: flex
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: mongodb+srv://tropical:tropical1@heroku-rk018p2x.br199.mongodb.net/heroku_rk018p2x?retryWrites=true&w=majority
+  APP_ID: peeq
+  MASTER_KEY: peeq-server-key
+  SERVER_URL: http://peeq-server.herokuapp.com/parse
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  # PARSE_MOUNT: /parse
+  # CLOUD_CODE_MAIN:  
